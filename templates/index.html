@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Äänestyskoneen vastaukset - koko Suomi{% endblock %}
+
+{% block contents %}
+
+<table border=1>
+{% for question in questions %}	
+
+<tr>
+	<td>{{ question.0 }}</td>
+	<td>{{ question.1 }}</td>
+	<td>
+		<pre>
+		Tärkeys:
+		- {{ question.2 }}
+		0 {{ question.3 }}
+		+ {{ question.4 }}
+		</pre>
+	</td>
+</tr>
+    {% for answeralternative in question.5 %}	
+<tr>
+	<td></td>
+	<td>
+	{{ answeralternative.0 }}
+	{{ answeralternative.1 }}
+	</td>
+	<td>{{ answeralternative.2 }}</td>
+</tr>
+	{% endfor %}
+
+{% endfor %}
+</table>
+
+{% endblock %}
