@@ -1,6 +1,6 @@
 [
     {
-        "kysymys": "Mit\u00c3\u00a4 mielt\u00c3\u00a4 olette seuraavasta v\u00c3\u00a4itt\u00c3\u00a4m\u00c3\u00a4st\u00c3\u00a4: Suomen ty\u00c3\u00b6markkinoilla tulisi ottaa oppia Tanskasta, miss\u00c3\u00a4 irtisanominen on helpompaa mutta ty\u00c3\u00b6tt\u00c3\u00b6myysturvan taso korkeampi.", 
+        "kysymys": "Mitä mieltä olette seuraavasta väittämästä: Suomen työmarkkinoilla tulisi ottaa oppia Tanskasta, missä irtisanominen on helpompaa mutta työttömyysturvan taso korkeampi.", 
         "nro": 1, 
         "painoarvo": {
             "iso": [
@@ -20,32 +20,32 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "T\u00c3\u00a4ysin samaa mielt\u00c3\u00a4.", 
+                "Täysin samaa mieltä.", 
                 30158, 
                 0.08092175345670963
             ], 
             [
                 2, 
-                "Jokseenkin samaa mielt\u00c3\u00a4.", 
+                "Jokseenkin samaa mieltä.", 
                 123740, 
                 0.3320265857395467
             ], 
             [
                 3, 
-                "Jokseenkin eri mielt\u00c3\u00a4.", 
+                "Jokseenkin eri mieltä.", 
                 156122, 
                 0.4189159093165469
             ], 
             [
                 4, 
-                "T\u00c3\u00a4ysin eri mielt\u00c3\u00a4.", 
+                "Täysin eri mieltä.", 
                 62661, 
                 0.16813575148719684
             ]
         ]
     }, 
     {
-        "kysymys": "Tulisiko Suomen houkutella ulkomaalaista ty\u00c3\u00b6voimaa?", 
+        "kysymys": "Tulisiko Suomen houkutella ulkomaalaista työvoimaa?", 
         "nro": 2, 
         "painoarvo": {
             "iso": [
@@ -65,32 +65,32 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "Kyll\u00c3\u00a4. ", 
+                "Kyllä. ", 
                 42737, 
                 0.11402918967955389
             ], 
             [
                 2, 
-                "Ty\u00c3\u00b6lupia on my\u00c3\u00b6nnett\u00c3\u00a4v\u00c3\u00a4 nykyist\u00c3\u00a4 joustavammin tarpeen mukaan, mutta ei ole syyt\u00c3\u00a4 pyrki\u00c3\u00a4 laajamittaiseen siirtolaisuuteen. ", 
+                "Työlupia on myönnettävä nykyistä joustavammin tarpeen mukaan, mutta ei ole syytä pyrkiä laajamittaiseen siirtolaisuuteen. ", 
                 177450, 
                 0.47346514047866806
             ], 
             [
                 3, 
-                "Nykyinen k\u00c3\u00a4yt\u00c3\u00a4nt\u00c3\u00b6 on hyv\u00c3\u00a4.", 
+                "Nykyinen käytäntö on hyvä.", 
                 100247, 
                 0.26747511940019747
             ], 
             [
                 4, 
-                "Ei, vaan nykyist\u00c3\u00a4 k\u00c3\u00a4yt\u00c3\u00a4nt\u00c3\u00b6\u00c3\u00a4 tulisi tiukentaa.", 
+                "Ei, vaan nykyistä käytäntöä tulisi tiukentaa.", 
                 54356, 
                 0.1450305504415806
             ]
         ]
     }, 
     {
-        "kysymys": "Mit\u00c3\u00a4 mielt\u00c3\u00a4 olette seuraavasta v\u00c3\u00a4itt\u00c3\u00a4m\u00c3\u00a4st\u00c3\u00a4: Globalisaatio ja vapaakauppa ovat olleet suomalaisten hyvinvoinnille p\u00c3\u00a4\u00c3\u00a4osin hy\u00c3\u00b6dyksi.", 
+        "kysymys": "Mitä mieltä olette seuraavasta väittämästä: Globalisaatio ja vapaakauppa ovat olleet suomalaisten hyvinvoinnille pääosin hyödyksi.", 
         "nro": 3, 
         "painoarvo": {
             "iso": [
@@ -110,32 +110,32 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "T\u00c3\u00a4ysin samaa mielt\u00c3\u00a4.", 
+                "Täysin samaa mieltä.", 
                 59361, 
                 0.16236197686599618
             ], 
             [
                 2, 
-                "Jokseenkin samaa mielt\u00c3\u00a4.", 
+                "Jokseenkin samaa mieltä.", 
                 203751, 
                 0.5572920797901584
             ], 
             [
                 3, 
-                "Jokseenkin eri mielt\u00c3\u00a4.", 
+                "Jokseenkin eri mieltä.", 
                 87569, 
                 0.2395154386243227
             ], 
             [
                 4, 
-                "T\u00c3\u00a4ysin eri mielt\u00c3\u00a4.", 
+                "Täysin eri mieltä.", 
                 14928, 
                 0.04083050471952277
             ]
         ]
     }, 
     {
-        "kysymys": "Alkoholiverotusta kevennettiin vuonna 2004. Miten alkoholiverotusta tulisi kehitt\u00c3\u00a4\u00c3\u00a4?", 
+        "kysymys": "Alkoholiverotusta kevennettiin vuonna 2004. Miten alkoholiverotusta tulisi kehittää?", 
         "nro": 4, 
         "painoarvo": {
             "iso": [
@@ -155,7 +155,7 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "Veroa tulisi edelleen kevent\u00c3\u00a4\u00c3\u00a4.", 
+                "Veroa tulisi edelleen keventää.", 
                 24702, 
                 0.06588640716103254
             ], 
@@ -167,20 +167,20 @@
             ], 
             [
                 3, 
-                "V\u00c3\u00a4kevien juomien verotusta tulisi kirist\u00c3\u00a4\u00c3\u00a4.", 
+                "Väkevien juomien verotusta tulisi kiristää.", 
                 142579, 
                 0.38029382424956926
             ], 
             [
                 4, 
-                "Alkoholin verotusta tulisi kirist\u00c3\u00a4\u00c3\u00a4 kauttaaltaan.", 
+                "Alkoholin verotusta tulisi kiristää kauttaaltaan.", 
                 74513, 
                 0.19874479219455987
             ]
         ]
     }, 
     {
-        "kysymys": "Yleinen arvonlis\u00c3\u00a4vero on Suomessa 22 prosenttia. Ruoalle s\u00c3\u00a4\u00c3\u00a4detty arvonlis\u00c3\u00a4vero on alempi eli 17 prosenttia.", 
+        "kysymys": "Yleinen arvonlisävero on Suomessa 22 prosenttia. Ruoalle säädetty arvonlisävero on alempi eli 17 prosenttia.", 
         "nro": 5, 
         "painoarvo": {
             "iso": [
@@ -200,19 +200,19 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "Ruoan arvonlis\u00c3\u00a4veroa tulisi nostaa. ", 
+                "Ruoan arvonlisäveroa tulisi nostaa. ", 
                 2663, 
                 0.007141650329996272
             ], 
             [
                 2, 
-                "Nykyinen taso on hyv\u00c3\u00a4.", 
+                "Nykyinen taso on hyvä.", 
                 119764, 
                 0.32118385659845045
             ], 
             [
                 3, 
-                "Ruoan arvonlis\u00c3\u00a4veroa tulisi alentaa.", 
+                "Ruoan arvonlisäveroa tulisi alentaa.", 
                 250456, 
                 0.6716744930715532
             ]
@@ -239,32 +239,32 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "Kevent\u00c3\u00a4\u00c3\u00a4 reilusti.", 
+                "Keventää reilusti.", 
                 43309, 
                 0.11608720009220716
             ], 
             [
                 2, 
-                "Kevent\u00c3\u00a4\u00c3\u00a4 jonkin verran.", 
+                "Keventää jonkin verran.", 
                 184554, 
                 0.49468602659533123
             ], 
             [
                 3, 
-                "Pit\u00c3\u00a4\u00c3\u00a4 nykyisell\u00c3\u00a4\u00c3\u00a4n.", 
+                "Pitää nykyisellään.", 
                 138472, 
                 0.37116596483798076
             ], 
             [
                 4, 
-                "Kirist\u00c3\u00a4\u00c3\u00a4.", 
+                "Kiristää.", 
                 6738, 
                 0.018060808474480865
             ]
         ]
     }, 
     {
-        "kysymys": "Perint\u00c3\u00b6verotusta tulisi seuraavalla vaalikaudella", 
+        "kysymys": "Perintöverotusta tulisi seuraavalla vaalikaudella", 
         "nro": 7, 
         "painoarvo": {
             "iso": [
@@ -284,38 +284,38 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "Kirist\u00c3\u00a4\u00c3\u00a4.", 
+                "Kiristää.", 
                 6232, 
                 0.016700073960532944
             ], 
             [
                 2, 
-                "Pit\u00c3\u00a4\u00c3\u00a4 nykyisell\u00c3\u00a4\u00c3\u00a4n.", 
+                "Pitää nykyisellään.", 
                 50401, 
                 0.13506104423697385
             ], 
             [
                 3, 
-                "Kevent\u00c3\u00a4\u00c3\u00a4 vain yritysten sukupolvenvaihdosten yhteydess\u00c3\u00a4.", 
+                "Keventää vain yritysten sukupolvenvaihdosten yhteydessä.", 
                 22952, 
                 0.06150515044001158
             ], 
             [
                 4, 
-                "Kevent\u00c3\u00a4\u00c3\u00a4 kauttaaltaan.", 
+                "Keventää kauttaaltaan.", 
                 154623, 
                 0.4143478074453603
             ], 
             [
                 5, 
-                "Perint\u00c3\u00b6vero tulisi poistaa kokonaan.", 
+                "Perintövero tulisi poistaa kokonaan.", 
                 138964, 
                 0.37238592391712133
             ]
         ]
     }, 
     {
-        "kysymys": "Lapsilis\u00c3\u00a4 on t\u00c3\u00a4t\u00c3\u00a4 nyky\u00c3\u00a4 ensimm\u00c3\u00a4isest\u00c3\u00a4 lapsesta 100 euroa kuukaudessa ja lis\u00c3\u00a4 nousee portaittain niin, ett\u00c3\u00a4 viidennest\u00c3\u00a4 lapsesta l\u00c3\u00a4htien se on 172 euroa kuukaudessa. Mit\u00c3\u00a4 lapsilisille tulisi tehd\u00c3\u00a4?", 
+        "kysymys": "Lapsilisä on tätä nykyä ensimmäisestä lapsesta 100 euroa kuukaudessa ja lisä nousee portaittain niin, että viidennestä lapsesta lähtien se on 172 euroa kuukaudessa. Mitä lapsilisille tulisi tehdä?", 
         "nro": 8, 
         "painoarvo": {
             "iso": [
@@ -335,32 +335,32 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "Nostaa kaikista lapsista nykyj\u00c3\u00a4rjestelm\u00c3\u00a4n mukaisissa suhteissa.", 
+                "Nostaa kaikista lapsista nykyjärjestelmän mukaisissa suhteissa.", 
                 164184, 
                 0.44414387119113574
             ], 
             [
                 2, 
-                "Nostaa painottaen v\u00c3\u00a4h\u00c3\u00a4lapsisia perheit\u00c3\u00a4.", 
+                "Nostaa painottaen vähälapsisia perheitä.", 
                 45583, 
                 0.1233092754501385
             ], 
             [
                 3, 
-                "Nostaa painottaen monilapsisia perheit\u00c3\u00a4.", 
+                "Nostaa painottaen monilapsisia perheitä.", 
                 75638, 
                 0.2046128376038781
             ], 
             [
                 4, 
-                "Korotukset eiv\u00c3\u00a4t ole tarpeen.", 
+                "Korotukset eivät ole tarpeen.", 
                 84259, 
                 0.22793401575484765
             ]
         ]
     }, 
     {
-        "kysymys": "Vapaaehtoisia el\u00c3\u00a4kevakuutuksia tuetaan nykyisin veroedulla. Pit\u00c3\u00a4isik\u00c3\u00b6 el\u00c3\u00a4kes\u00c3\u00a4\u00c3\u00a4st\u00c3\u00a4misen veroetu laajentaa my\u00c3\u00b6s muihin s\u00c3\u00a4\u00c3\u00a4st\u00c3\u00b6tapoihin kuten osakkeisiin, rahastoihin ja talletuksiin?", 
+        "kysymys": "Vapaaehtoisia eläkevakuutuksia tuetaan nykyisin veroedulla. Pitäisikö eläkesäästämisen veroetu laajentaa myös muihin säästötapoihin kuten osakkeisiin, rahastoihin ja talletuksiin?", 
         "nro": 9, 
         "painoarvo": {
             "iso": [
@@ -380,7 +380,7 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "Kyll\u00c3\u00a4.", 
+                "Kyllä.", 
                 109761, 
                 0.30206234932796144
             ], 
@@ -392,14 +392,14 @@
             ], 
             [
                 3, 
-                "Nykyinenkin veroetu pit\u00c3\u00a4\u00c3\u00a4 poistaa.", 
+                "Nykyinenkin veroetu pitää poistaa.", 
                 35380, 
                 0.09736578492564094
             ]
         ]
     }, 
     {
-        "kysymys": "Suomessa on keskusteltu energian hinnannoususta sek\u00c3\u00a4 p\u00c3\u00b6rssiss\u00c3\u00a4 noteeratun Fortumin johdon optioista. Mit\u00c3\u00a4 mielt\u00c3\u00a4 olette seuraavasta v\u00c3\u00a4itt\u00c3\u00a4m\u00c3\u00a4st\u00c3\u00a4: Suomeen tulisi perustaa uusi valtiollinen energiayhti\u00c3\u00b6? ", 
+        "kysymys": "Suomessa on keskusteltu energian hinnannoususta sekä pörssissä noteeratun Fortumin johdon optioista. Mitä mieltä olette seuraavasta väittämästä: Suomeen tulisi perustaa uusi valtiollinen energiayhtiö? ", 
         "nro": 10, 
         "painoarvo": {
             "iso": [
@@ -419,32 +419,32 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "T\u00c3\u00a4ysin samaa mielt\u00c3\u00a4.", 
+                "Täysin samaa mieltä.", 
                 55689, 
                 0.154286664173212
             ], 
             [
                 2, 
-                "Jokseenkin samaa mielt\u00c3\u00a4.", 
+                "Jokseenkin samaa mieltä.", 
                 141948, 
                 0.39326767236005483
             ], 
             [
                 3, 
-                "Jokseenkin eri mielt\u00c3\u00a4.", 
+                "Jokseenkin eri mieltä.", 
                 115470, 
                 0.3199102356314674
             ], 
             [
                 4, 
-                "T\u00c3\u00a4ysin eri mielt\u00c3\u00a4.", 
+                "Täysin eri mieltä.", 
                 47838, 
                 0.13253542783526576
             ]
         ]
     }, 
     {
-        "kysymys": "Millaisin keinoin energiankulutuksen kasvua tulisi Suomessa hillit\u00c3\u00a4?", 
+        "kysymys": "Millaisin keinoin energiankulutuksen kasvua tulisi Suomessa hillitä?", 
         "nro": 11, 
         "painoarvo": {
             "iso": [
@@ -464,32 +464,32 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "S\u00c3\u00a4hk\u00c3\u00b6n ja polttoaineiden verotusta tulisi tuntuvasti kirist\u00c3\u00a4\u00c3\u00a4.", 
+                "Sähkön ja polttoaineiden verotusta tulisi tuntuvasti kiristää.", 
                 23611, 
                 0.06381161641140398
             ], 
             [
                 2, 
-                "S\u00c3\u00a4hk\u00c3\u00b6n ja polttoaineiden verotusta voitaisiin kirist\u00c3\u00a4\u00c3\u00a4 hieman, mutta p\u00c3\u00a4\u00c3\u00a4painon kulutuksen kasvun hillinn\u00c3\u00a4ss\u00c3\u00a4 tulisi olla valistuksessa.", 
+                "Sähkön ja polttoaineiden verotusta voitaisiin kiristää hieman, mutta pääpainon kulutuksen kasvun hillinnässä tulisi olla valistuksessa.", 
                 163506, 
                 0.44189497069006056
             ], 
             [
                 3, 
-                "S\u00c3\u00a4\u00c3\u00a4st\u00c3\u00b6\u00c3\u00b6n tulisi pyrki\u00c3\u00a4 vain valistuksen keinoin.", 
+                "Säästöön tulisi pyrkiä vain valistuksen keinoin.", 
                 170532, 
                 0.4608835953525706
             ], 
             [
                 4, 
-                "Energiankulutuksen kasvua ei tarvitse hillit\u00c3\u00a4.", 
+                "Energiankulutuksen kasvua ei tarvitse hillitä.", 
                 12362, 
                 0.03340981754596485
             ]
         ]
     }, 
     {
-        "kysymys": "Mit\u00c3\u00a4 mielt\u00c3\u00a4 olette seuraavasta v\u00c3\u00a4itt\u00c3\u00a4m\u00c3\u00a4st\u00c3\u00a4: Suomeen tulisi rakentaa kuudes ydinvoimala.", 
+        "kysymys": "Mitä mieltä olette seuraavasta väittämästä: Suomeen tulisi rakentaa kuudes ydinvoimala.", 
         "nro": 12, 
         "painoarvo": {
             "iso": [
@@ -509,25 +509,25 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "T\u00c3\u00a4ysin samaa mielt\u00c3\u00a4.", 
+                "Täysin samaa mieltä.", 
                 86378, 
                 0.23404866417384707
             ], 
             [
                 2, 
-                "Jokseenkin samaa mielt\u00c3\u00a4.", 
+                "Jokseenkin samaa mieltä.", 
                 105365, 
                 0.2854955833739771
             ], 
             [
                 3, 
-                "Jokseenkin eri mielt\u00c3\u00a4.", 
+                "Jokseenkin eri mieltä.", 
                 90400, 
                 0.2449466211456132
             ], 
             [
                 4, 
-                "T\u00c3\u00a4ysin eri mielt\u00c3\u00a4.", 
+                "Täysin eri mieltä.", 
                 86917, 
                 0.23550913130656262
             ]
@@ -554,26 +554,26 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "EU.n tulisi olla edell\u00c3\u00a4k\u00c3\u00a4vij\u00c3\u00a4 ja rajoittaa kasvihuonekaasujen p\u00c3\u00a4\u00c3\u00a4st\u00c3\u00b6j\u00c3\u00a4, vaikka muut kuten USA ja Kiina eiv\u00c3\u00a4t viel\u00c3\u00a4 siihen olisi halukkaita.", 
+                "EU.n tulisi olla edelläkävijä ja rajoittaa kasvihuonekaasujen päästöjä, vaikka muut kuten USA ja Kiina eivät vielä siihen olisi halukkaita.", 
                 236047, 
                 0.6370402955710226
             ], 
             [
                 2, 
-                "P\u00c3\u00a4\u00c3\u00a4st\u00c3\u00b6j\u00c3\u00a4 on v\u00c3\u00a4hennett\u00c3\u00a4v\u00c3\u00a4 globaalisti, mutta EU:n ei tule sitoutua v\u00c3\u00a4hennyksiin enemp\u00c3\u00a4\u00c3\u00a4 kuin muutkaan maat.", 
+                "Päästöjä on vähennettävä globaalisti, mutta EU:n ei tule sitoutua vähennyksiin enempää kuin muutkaan maat.", 
                 128019, 
                 0.34549586141195077
             ], 
             [
                 3, 
-                "Kasvihuonekaasujen p\u00c3\u00a4\u00c3\u00a4st\u00c3\u00b6jen v\u00c3\u00a4hent\u00c3\u00a4minen ei ainakaan viel\u00c3\u00a4 ole ajankohtaista. ", 
+                "Kasvihuonekaasujen päästöjen vähentäminen ei ainakaan vielä ole ajankohtaista. ", 
                 6471, 
                 0.01746384301702664
             ]
         ]
     }, 
     {
-        "kysymys": "Suomessa on t\u00c3\u00a4ll\u00c3\u00a4 hetkell\u00c3\u00a4 220\u00e2\u20ac\u201c250 sutta. M\u00c3\u00a4\u00c3\u00a4r\u00c3\u00a4 on", 
+        "kysymys": "Suomessa on tällä hetkellä 220\u00e2\u20ac\u201c250 sutta. Määrä on", 
         "nro": 14, 
         "painoarvo": {
             "iso": [
@@ -612,7 +612,7 @@
         ]
     }, 
     {
-        "kysymys": "Pit\u00c3\u00a4isik\u00c3\u00b6 rekister\u00c3\u00b6idyss\u00c3\u00a4 parisuhteessa el\u00c3\u00a4ville homo- ja lesbopareille sallia adoptio-oikeus?", 
+        "kysymys": "Pitäisikö rekisteröidyssä parisuhteessa eläville homo- ja lesbopareille sallia adoptio-oikeus?", 
         "nro": 15, 
         "painoarvo": {
             "iso": [
@@ -632,13 +632,13 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "Kyll\u00c3\u00a4, heille tulisi sallia samat oikeudet kuin avioliitossa oleville.", 
+                "Kyllä, heille tulisi sallia samat oikeudet kuin avioliitossa oleville.", 
                 120258, 
                 0.32355512985737617
             ], 
             [
                 2, 
-                "Perheen sis\u00c3\u00a4inen adoptio, jossa toinen puolisoista voi adoptoida kumppaninsa lapsen, tulisi sallia. ", 
+                "Perheen sisäinen adoptio, jossa toinen puolisoista voi adoptoida kumppaninsa lapsen, tulisi sallia. ", 
                 119549, 
                 0.32164755957457686
             ], 
@@ -651,7 +651,7 @@
         ]
     }, 
     {
-        "kysymys": "Suomessa on p\u00c3\u00a4\u00c3\u00a4tetty, ett\u00c3\u00a4 analogiset televisiol\u00c3\u00a4hetykset loppuvat 31.8.2007. Tulisiko p\u00c3\u00a4\u00c3\u00a4t\u00c3\u00b6s purkaa ja antaa analogisille l\u00c3\u00a4hetyksille jatkoaikaa?", 
+        "kysymys": "Suomessa on päätetty, että analogiset televisiolähetykset loppuvat 31.8.2007. Tulisiko päätös purkaa ja antaa analogisille lähetyksille jatkoaikaa?", 
         "nro": 16, 
         "painoarvo": {
             "iso": [
@@ -671,7 +671,7 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "Kyll\u00c3\u00a4.", 
+                "Kyllä.", 
                 162836, 
                 0.44304534497113224
             ], 
@@ -684,7 +684,7 @@
         ]
     }, 
     {
-        "kysymys": "Mit\u00c3\u00a4 mielt\u00c3\u00a4 olette seuraavasta v\u00c3\u00a4itt\u00c3\u00a4m\u00c3\u00a4st\u00c3\u00a4: Poliisin valtuuksia tulisi lis\u00c3\u00a4t\u00c3\u00a4 rikollisuuden torjumiseksi ja yleisen turvallisuuden lis\u00c3\u00a4\u00c3\u00a4miseksi.  ", 
+        "kysymys": "Mitä mieltä olette seuraavasta väittämästä: Poliisin valtuuksia tulisi lisätä rikollisuuden torjumiseksi ja yleisen turvallisuuden lisäämiseksi.  ", 
         "nro": 17, 
         "painoarvo": {
             "iso": [
@@ -704,32 +704,32 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "T\u00c3\u00a4ysin samaa mielt\u00c3\u00a4.", 
+                "Täysin samaa mieltä.", 
                 106346, 
                 0.2872228944297999
             ], 
             [
                 2, 
-                "Jokseenkin samaa mielt\u00c3\u00a4.", 
+                "Jokseenkin samaa mieltä.", 
                 160856, 
                 0.43444535672615703
             ], 
             [
                 3, 
-                "Jokseenkin eri mielt\u00c3\u00a4.", 
+                "Jokseenkin eri mieltä.", 
                 80350, 
                 0.21701201330971004
             ], 
             [
                 4, 
-                "T\u00c3\u00a4ysin eri mielt\u00c3\u00a4.", 
+                "Täysin eri mieltä.", 
                 22704, 
                 0.061319735534333
             ]
         ]
     }, 
     {
-        "kysymys": "Miten Suomen puolustus tulisi j\u00c3\u00a4rjest\u00c3\u00a4\u00c3\u00a4?", 
+        "kysymys": "Miten Suomen puolustus tulisi järjestää?", 
         "nro": 18, 
         "painoarvo": {
             "iso": [
@@ -749,32 +749,32 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "Liittym\u00c3\u00a4ll\u00c3\u00a4 Natoon ja luopumalla yleisest\u00c3\u00a4 asevelvollisuudesta.", 
+                "Liittymällä Natoon ja luopumalla yleisestä asevelvollisuudesta.", 
                 18301, 
                 0.04975504455959676
             ], 
             [
                 2, 
-                "Liittym\u00c3\u00a4ll\u00c3\u00a4 Natoon ja s\u00c3\u00a4ilytt\u00c3\u00a4m\u00c3\u00a4ll\u00c3\u00a4 yleinen asevelvollisuus.", 
+                "Liittymällä Natoon ja säilyttämällä yleinen asevelvollisuus.", 
                 96690, 
                 0.26287171512307583
             ], 
             [
                 3, 
-                "Pysyttelem\u00c3\u00a4ll\u00c3\u00a4 Naton ulkopuolella ja s\u00c3\u00a4ilytt\u00c3\u00a4m\u00c3\u00a4ll\u00c3\u00a4 yleinen asevelvollisuus.", 
+                "Pysyttelemällä Naton ulkopuolella ja säilyttämällä yleinen asevelvollisuus.", 
                 223144, 
                 0.6066630054754746
             ], 
             [
                 4, 
-                "Pysyttelem\u00c3\u00a4ll\u00c3\u00a4 Naton ulkopuolella ja luopumalla yleisest\u00c3\u00a4 asevelvollisuudesta.", 
+                "Pysyttelemällä Naton ulkopuolella ja luopumalla yleisestä asevelvollisuudesta.", 
                 29687, 
                 0.08071023484185286
             ]
         ]
     }, 
     {
-        "kysymys": "Tulisiko Turkki ottaa EU:n j\u00c3\u00a4seneksi, jos se t\u00c3\u00a4ytt\u00c3\u00a4\u00c3\u00a4 j\u00c3\u00a4senyyden ehdot?", 
+        "kysymys": "Tulisiko Turkki ottaa EU:n jäseneksi, jos se täyttää jäsenyyden ehdot?", 
         "nro": 19, 
         "painoarvo": {
             "iso": [
@@ -794,7 +794,7 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "Kyll\u00c3\u00a4.", 
+                "Kyllä.", 
                 173524, 
                 0.4729940059368211
             ], 
@@ -827,32 +827,32 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "Presidentin ulkopoliittista valtaa tulisi v\u00c3\u00a4hent\u00c3\u00a4\u00c3\u00a4 valtioneuvoston hyv\u00c3\u00a4ksi.", 
+                "Presidentin ulkopoliittista valtaa tulisi vähentää valtioneuvoston hyväksi.", 
                 51487, 
                 0.14027091381649567
             ], 
             [
                 2, 
-                "Presidentin tulisi  johtaa ulkopolitiikkaa vastakin yhteistoiminnassa valtioneuvoston kanssa, mutta ei osallistua en\u00c3\u00a4\u00c3\u00a4 EU:n huippukokouksiin.", 
+                "Presidentin tulisi  johtaa ulkopolitiikkaa vastakin yhteistoiminnassa valtioneuvoston kanssa, mutta ei osallistua enää EU:n huippukokouksiin.", 
                 63724, 
                 0.17360933268674364
             ], 
             [
                 3, 
-                "Presidentin valtaoikeudet tulee s\u00c3\u00a4ilytt\u00c3\u00a4\u00c3\u00a4 nykyisin\u00c3\u00a4.", 
+                "Presidentin valtaoikeudet tulee säilyttää nykyisinä.", 
                 227652, 
                 0.620213919477788
             ], 
             [
                 4, 
-                "Presidentin valtaoikeuksia tulisi lis\u00c3\u00a4t\u00c3\u00a4 nykyisest\u00c3\u00a4.", 
+                "Presidentin valtaoikeuksia tulisi lisätä nykyisestä.", 
                 24191, 
                 0.06590583401897268
             ]
         ]
     }, 
     {
-        "kysymys": "Suomessa korkeakouluopiskelu on maksutonta. Miten tulisi menetell\u00c3\u00a4 vastedes?", 
+        "kysymys": "Suomessa korkeakouluopiskelu on maksutonta. Miten tulisi menetellä vastedes?", 
         "nro": 21, 
         "painoarvo": {
             "iso": [
@@ -878,13 +878,13 @@
             ], 
             [
                 2, 
-                "EU:n ulkopuolisten maiden opiskelijoille tulisi s\u00c3\u00a4\u00c3\u00a4t\u00c3\u00a4\u00c3\u00a4 lukukausimaksu.", 
+                "EU:n ulkopuolisten maiden opiskelijoille tulisi säätää lukukausimaksu.", 
                 163335, 
                 0.4392615103270224
             ], 
             [
                 3, 
-                "Korkeakouluihin tulisi s\u00c3\u00a4\u00c3\u00a4t\u00c3\u00a4\u00c3\u00a4 kaikille lukukausimaksu.", 
+                "Korkeakouluihin tulisi säätää kaikille lukukausimaksu.", 
                 25040, 
                 0.0673407917383821
             ]
@@ -917,20 +917,20 @@
             ], 
             [
                 2, 
-                "Kannustamalla opiskelijoita rahoittamaan opintonsa nykyist\u00c3\u00a4 enemm\u00c3\u00a4n opintolainalla.", 
+                "Kannustamalla opiskelijoita rahoittamaan opintonsa nykyistä enemmän opintolainalla.", 
                 35094, 
                 0.09450689129580059
             ], 
             [
                 3, 
-                "Kannustamalla opiskelijoita entist\u00c3\u00a4 enemm\u00c3\u00a4n ty\u00c3\u00b6ntekoon opintojen ohella nostamalla tulorajaa, jonka verran opiskelija voi ansaita menett\u00c3\u00a4m\u00c3\u00a4tt\u00c3\u00a4 opintorahaansa.", 
+                "Kannustamalla opiskelijoita entistä enemmän työntekoon opintojen ohella nostamalla tulorajaa, jonka verran opiskelija voi ansaita menettämättä opintorahaansa.", 
                 138025, 
                 0.3716964059697634
             ]
         ]
     }, 
     {
-        "kysymys": "Suomessa on k\u00c3\u00a4ynniss\u00c3\u00a4 kuntauudistus. Yhten\u00c3\u00a4 tavoitteena on v\u00c3\u00a4hent\u00c3\u00a4\u00c3\u00a4 kuntien lukum\u00c3\u00a4\u00c3\u00a4r\u00c3\u00a4\u00c3\u00a4 nykyisest\u00c3\u00a4 416:st\u00c3\u00a4. Mik\u00c3\u00a4 olisi sopiva kuntien m\u00c3\u00a4\u00c3\u00a4r\u00c3\u00a4?", 
+        "kysymys": "Suomessa on käynnissä kuntauudistus. Yhtenä tavoitteena on vähentää kuntien lukumäärää nykyisestä 416:stä. Mikä olisi sopiva kuntien määrä?", 
         "nro": 23, 
         "painoarvo": {
             "iso": [
@@ -975,7 +975,7 @@
         ]
     }, 
     {
-        "kysymys": "Mik\u00c3\u00a4 on paras keino turvata kansalaisten kunnalliset palvelut?", 
+        "kysymys": "Mikä on paras keino turvata kansalaisten kunnalliset palvelut?", 
         "nro": 24, 
         "painoarvo": {
             "iso": [
@@ -995,13 +995,13 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "Valtion on annettava kunnille lis\u00c3\u00a4\u00c3\u00a4 rahaa.", 
+                "Valtion on annettava kunnille lisää rahaa.", 
                 119400, 
                 0.32770057937682
             ], 
             [
                 2, 
-                "Kuntien tulisi kattaa lis\u00c3\u00a4rahoituksen tarve kirist\u00c3\u00a4m\u00c3\u00a4ll\u00c3\u00a4 verotusta tai nostamalla asiakasmaksuja.", 
+                "Kuntien tulisi kattaa lisärahoituksen tarve kiristämällä verotusta tai nostamalla asiakasmaksuja.", 
                 14675, 
                 0.04027643218052624
             ], 
@@ -1013,14 +1013,14 @@
             ], 
             [
                 4, 
-                "Kunnissa tulisi hy\u00c3\u00b6dynt\u00c3\u00a4\u00c3\u00a4 selv\u00c3\u00a4sti nykyist\u00c3\u00a4 enemm\u00c3\u00a4n ostopalveluita.", 
+                "Kunnissa tulisi hyödyntää selvästi nykyistä enemmän ostopalveluita.", 
                 62265, 
                 0.17089008856698237
             ]
         ]
     }, 
     {
-        "kysymys": "P\u00c3\u00a4iv\u00c3\u00a4hoito-oikeuden rajoittamista on esitetty yhdeksi vaihtoehdoksi, kun kunnat etsiv\u00c3\u00a4t keinoja pit\u00c3\u00a4\u00c3\u00a4 sosiaalimenojen kasvu kurissa. Miten suhtaudutte ajatukseen? ", 
+        "kysymys": "Päivähoito-oikeuden rajoittamista on esitetty yhdeksi vaihtoehdoksi, kun kunnat etsivät keinoja pitää sosiaalimenojen kasvu kurissa. Miten suhtaudutte ajatukseen? ", 
         "nro": 25, 
         "painoarvo": {
             "iso": [
@@ -1040,26 +1040,26 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "Lasten p\u00c3\u00a4iv\u00c3\u00a4hoito-oikeutta ei saa rajoittaa.", 
+                "Lasten päivähoito-oikeutta ei saa rajoittaa.", 
                 140592, 
                 0.3811434411674605
             ], 
             [
                 2, 
-                "P\u00c3\u00a4iv\u00c3\u00a4hoito-oikeutta tulee rajoittaa, jos toinen vanhemmista on kotona.", 
+                "Päivähoito-oikeutta tulee rajoittaa, jos toinen vanhemmista on kotona.", 
                 197758, 
                 0.5361198691134251
             ], 
             [
                 3, 
-                "Jokaiselle automaattisesti kuuluvasta, niin sanotusta subjektiivisesta p\u00c3\u00a4iv\u00c3\u00a4hoito-oikeudesta tulisi luopua.", 
+                "Jokaiselle automaattisesti kuuluvasta, niin sanotusta subjektiivisesta päivähoito-oikeudesta tulisi luopua.", 
                 30519, 
                 0.08273668971911437
             ]
         ]
     }, 
     {
-        "kysymys": "Mit\u00c3\u00a4 mielt\u00c3\u00a4 olette seuraavasta v\u00c3\u00a4itt\u00c3\u00a4m\u00c3\u00a4st\u00c3\u00a4: Sairaanhoidon potilasmaksut pit\u00c3\u00a4isi porrastaa tulotason mukaan.", 
+        "kysymys": "Mitä mieltä olette seuraavasta väittämästä: Sairaanhoidon potilasmaksut pitäisi porrastaa tulotason mukaan.", 
         "nro": 26, 
         "painoarvo": {
             "iso": [
@@ -1079,32 +1079,32 @@
         "vastausvaihtoehdot": [
             [
                 1, 
-                "T\u00c3\u00a4ysin samaa mielt\u00c3\u00a4.", 
+                "Täysin samaa mieltä.", 
                 47375, 
                 0.1276524082182553
             ], 
             [
                 2, 
-                "Jokseenkin samaa mielt\u00c3\u00a4.", 
+                "Jokseenkin samaa mieltä.", 
                 110168, 
                 0.2968487706298417
             ], 
             [
                 3, 
-                "Jokseenkin eri mielt\u00c3\u00a4.", 
+                "Jokseenkin eri mieltä.", 
                 106323, 
                 0.286488379925901
             ], 
             [
                 4, 
-                "T\u00c3\u00a4ysin eri mielt\u00c3\u00a4.", 
+                "Täysin eri mieltä.", 
                 107259, 
                 0.289010441226002
             ]
         ]
     }, 
     {
-        "kysymys": "Hallitus saa eduskunnassa taakseen enemmist\u00c3\u00b6n todenn\u00c3\u00a4k\u00c3\u00b6isesti vain, jos kolmesta suurimmasta puolueesta kaksi on siin\u00c3\u00a4 mukana. Jos vaalitulos sallisi, mik\u00c3\u00a4 olisi sopivin yhdistelm\u00c3\u00a4?", 
+        "kysymys": "Hallitus saa eduskunnassa taakseen enemmistön todennäköisesti vain, jos kolmesta suurimmasta puolueesta kaksi on siinä mukana. Jos vaalitulos sallisi, mikä olisi sopivin yhdistelmä?", 
         "nro": 27, 
         "painoarvo": {
             "iso": [
