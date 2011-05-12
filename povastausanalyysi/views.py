@@ -52,7 +52,8 @@ def getdata():
 	return data
 
 def index(request):
-	return render_to_response("index.html", {'questions':getdata()})
+	return render_to_response("index.html")
+#	return render_to_response("index.html", {'questions':getdata()}) # template made with old data model, should be updated to ned getdata() contents
 
 def json(request):
 	return HttpResponse(simplejson.dumps(getdata(), sort_keys=True, indent=4 * ' '), mimetype='application/javascript')
