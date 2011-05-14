@@ -1,0 +1,10 @@
+body, p { font-family: 'PT Sans Narrow', arial, serif; }
+
+th, td {
+	text-align: left;
+	vertical-align: top;	
+/*	border: 1px solid black; */
+}
+small {
+	font-weight: normal;	
+}
