@@ -42,6 +42,7 @@ $(document).ready(function(){
 <tr> \
 	<th> \
 	' + data[i]["nro"] + '. ' + data[i]["kysymys"] + ' \
+	<small>(n=' + data[i]["vastauksia"] + ')</small> \
 	</th> \
 ');
 
