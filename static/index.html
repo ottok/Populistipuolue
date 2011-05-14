@@ -3,79 +3,10 @@
 <head>
 <meta charset="utf-8">
 <title>Populistipuolue.fi</title>
-<style type="text/css">
-th, td {
-	border: 1px solid black;
-}
-</style>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style.css"/>
 <script src="jquery-1.6.min.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript">
-/* <![CDATA[ */
-function float2procent(value){
-	return Math.round(value*100);
-}
-
-function svg_circle(radius){
-	return '<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100"><desc>Created by Otto</desc><defs></defs> \
-<circle cx="50" cy="50" r="' + radius + '" fill="#000000" stroke="none" style="fill-opacity:1;" fill-opacity="1"></circle> \
-</svg> \
-';
-}
-
-/*
-	return '<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100"><desc>Created by Otto</desc><defs></defs> \
-	<path fill="#000000" stroke="none" d="M71.196,42.691C65.5685298,42.691,61.004999999999995,38.1274702,61.004999999999995,32.5C61.004999999999995,26.8725298,65.5685298,22.309,71.196,22.309C76.8234702,22.309,81.387,26.8725298,81.387,32.5C81.387,38.1274702,76.8234702,42.691,71.196,42.691M79.79846947102982,22.5A13.191,13.191,0,1,0,79.79846947102982,42.5L108.58299914550781,42.5L108.58299914550781,22.5L79.79846947102982,22.5" transform="" style="display: normal;"></path> \
-<text x="93.4849995727539" y="36.5" text-anchor="middle" style="text-anchor: middle; font: normal normal normal 11px/normal sans-serif; display: normal;" font="11px sans-serif" stroke="none" fill="#ffffff" transform=""><tspan>263</tspan></text> \
-<circle cx="71.19565217391305" cy="32.5" r="10" fill="#000000" stroke="none" style="fill-opacity: 0; " fill-opacity="0"></circle> \
-</svg> \
-';
-*/
-
-$(document).ready(function(){
-    $.getJSON("index.json",function(data){ /* Django running, dynamic: /index.json OR Django not running, static: /index.json */
-		var items = [];
-
-		for (i in data) {
-			items.push('\
-<tr>\
-	<th>' + data[i]["nro"] + '. ' + data[i]["kysymys"] + '</th>\
-');
-
-			for (x in data[i]["vastausvaihtoehdot"]) {
-				items.push('\
-	<td>' + data[i]["vastausvaihtoehdot"][x][0] + '. ' + data[i]["vastausvaihtoehdot"][x][1] + '</td>\
-');
-			}
-
-			items.push('\
-</tr>\
-<tr>\
-	<th>Painoarvot: <br>\
-	iso ' + data[i]["painoarvo"]["iso"][0] + ' (' + float2procent(data[i]["painoarvo"]["iso"][1]) + '%) <br> \
-	normaali ' + data[i]["painoarvo"]["normaali"][0] + ' (' + float2procent(data[i]["painoarvo"]["normaali"][1]) + '%) <br> \
-	pieni ' + data[i]["painoarvo"]["pieni"][0] + ' (' + float2procent(data[i]["painoarvo"]["pieni"][1]) + '%) \
-	</th>\
-');
-
-			for (x in data[i]["vastausvaihtoehdot"]) {
-				items.push('\
-	<td>' + svg_circle(float2procent(data[i]["vastausvaihtoehdot"][x][3]/2)) + data[i]["vastausvaihtoehdot"][x][2] + ' (' + float2procent(data[i]["vastausvaihtoehdot"][x][3]) + '%)</td>\
-');
-			}
-
-			items.push('\
-</tr>\
-');
-		};
-
-		$('<table/>', {
-			'class': 'questions',
-			html: items.join("\n")
-		}).appendTo('#content');  
-	});   
-});
-/* ]]> */
-</script>
+<script src="vastausanalyysi.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 <div id="header"><h1>Populistipuolue.fi</h1></div>
