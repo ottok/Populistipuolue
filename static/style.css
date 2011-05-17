@@ -1,5 +1,37 @@
-body, p { font-family: 'PT Sans Narrow', arial, serif; }
+body, p { font-family: 'Open Sans', arial, serif; }
 
+body { 
+	background: #ccc;
+	text-align: center;
+}
+
+#container {
+	position: relative;
+}
+
+#content {
+	position: relative;
+	width: 780px;
+	margin: 10px auto;
+	padding: 1em 2em;
+	background: #fff;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 0px 5px 8px #888;
+	-webkit-box-shadow: 0px 5px 8px #888;
+	box-shadow: 0px 5px 8px #888;
+	text-align: left;
+}
+
+h3, h4 {
+	margin: 38px 0 0 0;
+	padding-bottom: 0;
+}
+
+table {
+	margin: 0 0 20px 80px;
+	width: 650px;
+}
 th, td {
 	text-align: left;
 	vertical-align: top;	
@@ -7,4 +39,10 @@ th, td {
 }
 small {
 	font-weight: normal;	
+}
+
+#beta {
+	position: absolute;
+	top: -50px;
+	right: -50px;
 }

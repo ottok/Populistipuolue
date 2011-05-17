@@ -59,4 +59,3 @@ def json(request):
 	return HttpResponse(simplejson.dumps(getdata(), sort_keys=True, indent=4 * ' '), mimetype='application/javascript')
 
 
-

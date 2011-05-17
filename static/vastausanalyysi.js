@@ -3,9 +3,9 @@ function float2procent(value){
 }
 
 function svg_circle(radius){
-	radius = radius*50;
-	return '<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="180"><desc>Created by Otto</desc><defs></defs> \
-<circle cx="50" cy="50" r="' + radius + '" fill="#555555" stroke="none" style="fill-opacity:1;" fill-opacity="1"></circle> \
+	radius = radius*50+2;
+	return '<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="80" height="80"><desc>Created by Otto</desc><defs></defs> \
+<circle cx="40" cy="40" r="' + radius + '" fill="#1751a7" stroke="none" style="fill-opacity:0.8;" fill-opacity="1"></circle> \
 </svg> \
 ';
 }
@@ -35,15 +35,33 @@ function svg_importance(yes, na, no){
 
 $(document).ready(function(){
     $.getJSON("index.json",function(data){ /* Django running, dynamic: /index.json OR Django not running, static: /index.json */
+    
+    // optional: sort questions by importance
+    // data.sort(function(b,a) { return parseFloat(a.painoarvo.iso) - parseFloat(b.painoarvo.iso)});
+    
 		var items = [];
 
 		for (i in data) {
 			items.push('\
-<tr> \
-	<th> \
+<a name="' + data[i]["nro"] + '"><h3> \
 	' + data[i]["nro"] + '. ' + data[i]["kysymys"] + ' \
 	<small>(n=' + data[i]["vastauksia"] + ')</small> \
-	</th> \
+</h3></a> \
+<table> \
+<tr> \
+');
+
+			for (x in data[i]["vastausvaihtoehdot"]) {
+				items.push('\
+	<td> \
+	' + svg_circle(data[i]["vastausvaihtoehdot"][x][3]) + ' \
+	</td> \
+');
+			}
+
+			items.push('\
+</tr> \
+<tr> \
 ');
 
 			for (x in data[i]["vastausvaihtoehdot"]) {
@@ -57,6 +75,10 @@ $(document).ready(function(){
 
 			items.push('\
 </tr> \
+</table> \
+');
+
+/*
 <tr> \
 	<td> \
 	<small>Painoarvo: ' + svg_importance(data[i]["painoarvo"]["iso"][1], data[i]["painoarvo"]["normaali"][1], data[i]["painoarvo"]["pieni"][1]) + '<br/> \
@@ -66,25 +88,13 @@ $(document).ready(function(){
 	</small> \
 	</td> \
 ');
-
-			for (x in data[i]["vastausvaihtoehdot"]) {
-				items.push('\
-	<td> \
-	' + svg_circle(data[i]["vastausvaihtoehdot"][x][3]) + ' \
-	</td> \
-');
-			}
-
-			items.push('\
-</tr> \
-');
-
+*/
 
 		};
 
-		$('<table/>', {
+		$('<div/>', {
 			'class': 'questions',
 			html: items.join("\n")
-		}).appendTo('#content');  
+		}).appendTo('#data');  
 	});   
 });
