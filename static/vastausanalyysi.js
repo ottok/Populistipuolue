@@ -14,7 +14,7 @@ function svg_importance(yes, na, no){
 	yes = yes*200; // e.g. 0.33 becomes 33px*3 = 99px
 	na = na*200;
 	no = no*200;
-	return '<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="55"><desc>Created by Otto</desc><defs></defs> \
+	return '<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="55"><desc>SVG image</desc><defs></defs> \
 <rect x="0" y="45" width="' + yes + '" height="10" r="0" rx="0" ry="0" fill="#000000" stroke="none" style="fill-opacity: 1; " fill-opacity="1"></rect> \
 <rect x="' + yes + '" y="45" width="' + na + '" height="10" r="0" rx="0" ry="0" fill="#888" stroke="none" style="fill-opacity: 1; " fill-opacity="1"></rect> \
 <rect x="' + (yes + na) + '" y="45" width="' + no + '" height="10" r="0" rx="0" ry="0" fill="#cccccc" stroke="none" style="fill-opacity: 1; " fill-opacity="1"></rect> \
