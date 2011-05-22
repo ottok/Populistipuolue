@@ -16,6 +16,7 @@ body {
 	padding: 1em 2em;
 	background: #fff;
 	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
 	border-radius: 15px;
 	-moz-box-shadow: 0px 5px 8px #888;
 	-webkit-box-shadow: 0px 5px 8px #888;
@@ -23,26 +24,104 @@ body {
 	text-align: left;
 }
 
+#beta {
+	position: absolute;
+	top: -65px;
+	left: -65px;
+}
+
+#intro {
+	position: absolute;
+	padding: 10px;
+	top: 15px;
+	right: 15px;
+	width: 30em;
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.34, rgb(23,81,167)),
+		color-stop(0.75, rgb(36,126,252))
+	);
+	background-image: -moz-linear-gradient(
+		center bottom,
+		rgb(23,81,167) 34%,
+		rgb(36,126,252) 75%
+	);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 3px 3px 3px #888;
+	-webkit-box-shadow: 3px 3px 3px #888;
+	box-shadow: 3px 3px 3px #888;
+}
+
 h3, h4 {
-	margin: 38px 0 0 0;
+	margin: 38px 0 0;
 	padding-bottom: 0;
 }
 
+small {
+	font-weight: normal;
+	margin-right: 1em;	
+}
+
 table {
-	margin: 0 0 20px 80px;
-	width: 650px;
+	margin: 12px 0 20px 30px;
+	width: 750px;
 }
 th, td {
 	text-align: left;
-	vertical-align: top;	
+	vertical-align: top;
+	max-width: 200px;
 /*	border: 1px solid black; */
 }
-small {
-	font-weight: normal;	
+
+td.graphics {
+	text-align: center; /* does not seem to have any effect */
+	vertical-align: middle;	
+}
+td.graphics .circle {
+	margin: auto;	
 }
 
-#beta {
-	position: absolute;
-	top: -50px;
-	right: -50px;
+.circle {
+	background-color: #1751a7;
+	-webkit-border-radius: 999px;
+	-moz-border-radius: 999px;
+	border-radius: 999px;
+}
+
+.bar {
+	height: 18px;
+	float: left;
+}
+
+.iso {
+	background-color: #103771;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.normaali {
+	background-color: #1751a7;
+}
+.pieni {
+	background-color: #247CFF;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.left {
+	float: left;
 }

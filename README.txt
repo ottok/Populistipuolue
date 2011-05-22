@@ -22,17 +22,25 @@ Set user/pass: root/mysql
 
 Download SQL data and import in local database:
  wget http://www.populistipuolue.fi/2007_vaalikone.sql
+ mysql -u root -p -e "create database 2007_vaalikone"
  mysql -u root -p 2007_vaalikone < 2007_vaalikone.sql
+ 
+If the data has funny characters in the database, you might need to convert the character set before importing to database:
+ recode utf-8..iso-8859-1 2007_vaalikone.sql
 
 Get source
-	git://github.com/ottokek/Populistipuolue.git
+ git://github.com/ottokek/Populistipuolue.git
 
 Run server
-	cd Populistipuolue
-	./manage.py runserver
+ cd Populistipuolue
+ ./manage.py runserver
 
 Open site
-	firefox localhost:8000/static/index.html
+ firefox localhost:8000
+
+To dump HTML version of site, run in a new folder:
+ www$ wget -r -nH -np  http://localhost:8000/
+
 
 == HISTORY ==
 

@@ -7,6 +7,13 @@ import simplejson
 #from django.utils.encoding import *
 from decimal import *
 
+'''
+ this would be nice, but where to put in in template context?	
+@register.filter
+def multiply(value, arg):
+	return int(value) * int(arg)
+'''
+	
 # import MySQL module
 import MySQLdb
 # connect
@@ -31,7 +38,7 @@ def getdata():
 		for answeralternative in answeralternatives:
 			cursor.execute("SELECT count(user_id) FROM User_Answers WHERE answer_%s=%s" % (question.question_number,answeralternative.answeralternative_number))
 			answeralternativecount = cursor.fetchone()[0]
-			answeralternativecountpros = answeralternativecount/float(answercount)
+			answeralternativecountpros = int(round(answeralternativecount/float(answercount)*100))
 			subdata.append((
 				answeralternative.answeralternative_number, 
 				answeralternative.answer_text, 
@@ -43,9 +50,9 @@ def getdata():
 			"kysymys":question.question, 
 			"vastauksia":answercount,
 			"painoarvo":{
-				"pieni": [important_no, important_no/float(answercount)], 
-				"normaali": [important_na, important_na/float(answercount)],
-				"iso": [important_yes, important_yes/float(answercount)]
+				"pieni": [important_no, int(round(important_no/float(answercount)*100))], 
+				"normaali": [important_na, int(round(important_na/float(answercount)*100))],
+				"iso": [important_yes, int(round(important_yes/float(answercount)*100))]
 			},
 			"vastausvaihtoehdot":subdata
 		})
@@ -53,9 +60,11 @@ def getdata():
 
 def index(request):
 	return render_to_response("index.html")
-#	return render_to_response("index.html", {'questions':getdata()}) # template made with old data model, should be updated to ned getdata() contents
 
-def json(request):
+def tutkimus(request):
+	return render_to_response("tutkimus.html", {'questions':getdata()}) # template made with old data model, should be updated to ned getdata() contents
+
+def index_json(request):
 	return HttpResponse(simplejson.dumps(getdata(), sort_keys=True, indent=4 * ' '), mimetype='application/javascript')
 
 
