@@ -9,8 +9,9 @@ from django.utils.encoding import *
 
 urlpatterns = patterns('povastausanalyysi.views',
     (r"^$", 'index'),
-    (r"^tutkimus$", 'tutkimus'),
-    (r"^kannatus$", 'kannatus'),
+    (r"^index", 'index'),
+    (r"^tutkimus", 'tutkimus'),
+    (r"^kannatus", 'kannatus'),
     (r"^index.json$", 'index_json'),
 )
 

@@ -47,7 +47,7 @@ def getdata():
 				for relationalternative in relationalternatives:
 					cursor.execute("SELECT COUNT(user_id) FROM User_Answers WHERE answer_%s=%s AND answer_%s=%s" % (question.question_number,answeralternative.answeralternative_number,question.question_number+1,relationalternative[0]))
 					relationcount = cursor.fetchone()[0]
-					relations.append(int(round(relationcount/float(answeralternativecount)*100)))
+					relations.append(int(round(relationcount/float(answercount)*100)))
 			subdata.append((
 				answeralternative.answeralternative_number, 
 				answeralternative.answer_text, 
