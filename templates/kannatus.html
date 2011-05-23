@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block title %}Kannatus{% endblock %}
+
+{% block script %}
+<script src="/static/raphael-min.js" type="text/javascript" charset="utf-8"></script> 
+<script src="/static/g.raphael-min.js" type="text/javascript" charset="utf-8"></script> 
+<script src="/static/g.dot-min.js" type="text/javascript" charset="utf-8"></script> 
+<script type="text/javascript" charset="utf-8"> 
+window.onload = function () {
+    r = Raphael("holder");
+    r.g.txtattr.font = "12px 'Open Sans', Open-Sans, sans-serif";
+
+	var y = 0;
+	{% for kysymys in kysymykset %}
+		var x = 0;
+		{% for vastaus in kysymys.vastausvaihtoehdot %}
+			// M = start coordinates (x,y), L= end coordinates (x,y)
+			// M40,40L395,115
+			// offset = 40,40, row height = 115, row width = 115
+			var z = 0;
+			{% for suhde in vastaus.4.suhde_seuraaviin %}
+				r.path("M"+(40+118*x)+","+(40+74*y)+"L"+(40+118*z)+","+(40+74*(y+1))).attr({"stroke-width":({{ suhde }}/5), "stroke": "#333","stroke-linecap": "round", "opacity":0.2});
+				z++;
+			{% endfor %}
+			x++;
+		{% endfor %}
+		y++;
+	{% endfor %}
+
+    // two first numbers are offset
+    // third number width?
+    // fourth height?
+    var xs = [{% for kysymys in kysymykset %}{% for vastaus in kysymys.vastausvaihtoehdot %}{{ vastaus.0 }},{% endfor %}{% endfor %}],
+    	ys = [{% for kysymys in kysymykset %}{% for vastaus in kysymys.vastausvaihtoehdot %}Math.abs({{ kysymys.nro|add:"-28" }}),{% endfor %}{% endfor %}],
+    	data = [{% for kysymys in kysymykset %}{% for vastaus in kysymys.vastausvaihtoehdot %}{{ vastaus.3 }},{% endfor %}{% endfor %}],
+    	axisy = [{% for kysymys in kysymykset reversed %}"{{ kysymys.nro }}",{% endfor %}];
+
+    r.g.dotchart(0, 0, 550, 2000, xs, ys, data, {symbol: "o", max: 20, heat:true, axis: "0 0 0 1", axisystep: 26, axisytype: " ", axisylabels: axisy}).hover(function () {
+		this.tag = this.tag || r.g.tag(this.x, this.y, this.value + "%", 0, this.r + 2).insertBefore(this);
+        this.tag.show();
+    }, function () {
+        this.tag && this.tag.hide();
+    });	
+    // fix height
+    window.document.getElementsByTagName("svg")[0].attributes[3].nodeValue = 2000;
+};
+</script>
+{% endblock %}
+
+{% block contents %}
+
+<h2>Populistipuolueen kannatus</h2>
+
+<h3>Laskelma</h3>
+
+<p>Jos aineistosta lasketaan kuinka moni on populistipuolueen puolueohjelman kannalla kysymyksissä 4, 5, 6, 7, 9, 11, 13, 21 ja 22 saadaan tulokseksi <strong>{{ kannattajia }} kannattajaa</strong>. Kun otoksessa oli yhteensä {{ vastaajia }} vastaajaa, saadaan kannatusprosentiksi <strong>{{ kannatus  }} %</strong>.</p>
+
+<h3>Valintapolut</h3>
+<p>Pallon suuruus kertoo kyseisen vastausvaihtoehdon kannatuksen. Pallojen väliset viivat osoittavat, kuinka moni tietyn valinnan tehnyt on tehnyt seuraavaksi minkäkin valinnan.</p>
+
+<div class="raphael">
+	<div id="holder"></div>
+</div>
+
+<p><small>Grafiikka on toteutettu SVG:llä, mikä vaatii toimiakseen nykyaikaisen selaimen.</small></p>
+
+{% endblock %}

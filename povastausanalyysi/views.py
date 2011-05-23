@@ -39,11 +39,21 @@ def getdata():
 			cursor.execute("SELECT count(user_id) FROM User_Answers WHERE answer_%s=%s" % (question.question_number,answeralternative.answeralternative_number))
 			answeralternativecount = cursor.fetchone()[0]
 			answeralternativecountpros = int(round(answeralternativecount/float(answercount)*100))
+			# get possible next answeralternatives
+			relations = []
+			if question.question_number < 27:
+				cursor.execute("SELECT DISTINCT(answer_%s) as answers FROM User_Answers WHERE answer_%s!=0 order by answers ASC" % (question.question_number+1,question.question_number+1))
+				relationalternatives = cursor.fetchall()
+				for relationalternative in relationalternatives:
+					cursor.execute("SELECT COUNT(user_id) FROM User_Answers WHERE answer_%s=%s AND answer_%s=%s" % (question.question_number,answeralternative.answeralternative_number,question.question_number+1,relationalternative[0]))
+					relationcount = cursor.fetchone()[0]
+					relations.append(int(round(relationcount/float(answeralternativecount)*100)))
 			subdata.append((
 				answeralternative.answeralternative_number, 
 				answeralternative.answer_text, 
 				answeralternativecount,
-				answeralternativecountpros
+				answeralternativecountpros,
+				{"suhde_seuraaviin": relations}
 			))
 		data.append({
 			"nro":question.question_number, 
@@ -62,9 +72,27 @@ def index(request):
 	return render_to_response("index.html")
 
 def tutkimus(request):
-	return render_to_response("tutkimus.html", {'questions':getdata()}) # template made with old data model, should be updated to ned getdata() contents
+	return render_to_response("tutkimus.html", {'kysymykset':getdata()})
+
+def kannatus(request):
+	cursor.execute("""
+		SELECT count(user_id) FROM User_Answers WHERE 
+		answer_13 = 1 AND
+		answer_21 != 3 AND
+		answer_22 != 2 AND
+		answer_4 != 1 AND
+		answer_5 != 1 AND
+		answer_6 != 4 AND
+		answer_7 != 1 AND
+		answer_9 != 1 AND
+		(answer_11 = 2 OR answer_11 = 3)
+	""")
+	kannattajia = cursor.fetchone()[0]
+	cursor.execute("SELECT count(user_id) FROM User_Answers")
+	vastaajia = cursor.fetchone()[0]
+	kannatus = int(round(kannattajia/float(vastaajia)*100))
+	return render_to_response("kannatus.html", {'kannattajia':kannattajia, 'vastaajia':vastaajia, 'kannatus':kannatus, 'kysymykset':getdata()})
 
 def index_json(request):
 	return HttpResponse(simplejson.dumps(getdata(), sort_keys=True, indent=4 * ' '), mimetype='application/javascript')
-
 

@@ -1,32 +1,32 @@
 {% extends "base.html" %}
 
-{% block title %}Populistipuolue.fi{% endblock %}
+{% block title %}Tutkimus{% endblock %}
 
 {% block contents %}
 
 <h2>Kyselytutkimuksen tulokset (2007)</h2>
 
-{% for question in questions %}	
-<a name="{{ question.nro }}"><h3>{{ question.nro }}. {{ question.kysymys }} <small>(n={{ question.vastauksia }})</small></h3></a>
+{% for kysymys in kysymykset %}	
+<a name="{{ kysymys.nro }}"><h3>{{ kysymys.nro }}. {{ kysymys.kysymys }} <small>(n={{ kysymys.vastauksia }})</small></h3></a>
 <table>
 <tr>
-	{% for answer in question.vastausvaihtoehdot %}	
-	<td class="graphics"><div class="circle" style="width:{{ answer.3|add:'2' }}px; height:{{ answer.3|add:'2' }}px;"></div></td>
+	{% for vastaus in kysymys.vastausvaihtoehdot %}	
+	<td class="graphics"><div class="circle" style="width:{{ vastaus.3|add:'2' }}px; height:{{ vastaus.3|add:'2' }}px;"></div></td>
 	{% endfor %}
 </tr>
 <tr>
-	{% for answer in question.vastausvaihtoehdot %}	
-	<td>{{ answer.0 }}. {{ answer.1 }}<br/>
-	<small>{{ answer.3 }} % ({{ answer.2 }})</small><br/>
+	{% for vastaus in kysymys.vastausvaihtoehdot %}	
+	<td>{{ vastaus.0 }}. {{ vastaus.1 }}<br/>
+	<small>{{ vastaus.3 }} % ({{ vastaus.2 }})</small><br/>
 	</td>
 	{% endfor %}
 </tr>
 <tr>
 	<td colspan="5">
-		<small class="left">Painoarvo: iso {{ question.painoarvo.iso.1 }} % / normaali {{ question.painoarvo.normaali.1 }} % / pieni {{ question.painoarvo.pieni.1 }} %</small>
-		<div class="bar iso" style="width:{{ question.painoarvo.iso.1 }}px"></div>
-		<div class="bar normaali" style="width:{{ question.painoarvo.normaali.1 }}px"></div>
-		<div class="bar pieni" style="width:{{ question.painoarvo.pieni.1 }}px"></div>
+		<small class="left">Painoarvo: iso {{ kysymys.painoarvo.iso.1 }} % / normaali {{ kysymys.painoarvo.normaali.1 }} % / pieni {{ kysymys.painoarvo.pieni.1 }} %</small>
+		<div class="bar iso" style="width:{{ kysymys.painoarvo.iso.1 }}px"></div>
+		<div class="bar normaali" style="width:{{ kysymys.painoarvo.normaali.1 }}px"></div>
+		<div class="bar pieni" style="width:{{ kysymys.painoarvo.pieni.1 }}px"></div>
 	</td>
 </tr>
 </table>
