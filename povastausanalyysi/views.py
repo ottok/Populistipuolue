@@ -85,7 +85,8 @@ def kannatus(request):
 		answer_6 != 4 AND
 		answer_7 != 1 AND
 		answer_9 != 1 AND
-		(answer_11 = 2 OR answer_11 = 3)
+		(answer_11 = 2 OR answer_11 = 3) AND
+		answer_18 != 1
 	""")
 	kannattajia = cursor.fetchone()[0]
 	cursor.execute("SELECT count(user_id) FROM User_Answers")
